@@ -50,3 +50,7 @@ There's no clean ground-truth dataset for something like "political bias" or "em
 **Hybrid scoring.** Running everything through the LLM works, but a lot of evaluations don't really need it. I'd look at routing clear-cut cases through deterministic rules and saving the LLM for the genuinely ambiguous ones. Cheaper, more consistent, easier to explain when something looks off.
 
 **Evaluation.** There's no good way to tell right now whether scoring quality is holding up across rubric changes, prompt edits, or model upgrades. I'd build a labeled test set and start tracking consistency over time. Otherwise every change is a bit of a guess.
+
+## Demo Walkthrough
+
+[Demo](https://drive.google.com/file/d/1w9XSzDPxNICwzS94A7SkWFcYYC-UFdlo/view?usp=sharing)
